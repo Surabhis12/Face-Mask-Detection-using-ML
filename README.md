@@ -31,6 +31,7 @@ For this reason, Firebase was utilized as the backend administration. Assuming t
 
 
 IMPLEMENTATION:
+
 Step 1 Installing all required Libraries
 Installing the required libraries like OpenCV, Keras, Sklearn and others.
 
@@ -53,13 +54,16 @@ The model implemented in the video. The video needs to read from frame to frame,
 to the next step. From the frames that detected the containing faces, reprocessing        will be carried out which would be including resizing the image size, converting to the array, pre-processing input using MobileNetV2. The next step is to predict the input     data from the model which is saved. Predicting the input image which has been                processed using a model built earlier. The video frame will also be labelled according to whether that the person is wearing a mask or not and also predictive percentage.     It will also start beeping if person is not wearing mask.
 
 CONCLUSION:
+
 In this project, a machine learning model is created for face mask detection using Python, Keras, and OpenCV. We developed the face mask detector model for detecting whether if the person is wearing a mask or not. We trained the model using Keras with network architecture. Training the model was the first half of our project and testing it using the webcam using OpenCV the second half. This system can therefore be used in real-time applications and places where required face mask detection for safety purposes due to outbreak of covid-19.
 
 
 
 
 
-References
+References:
+
+
 Riya Chiragkumar Shah Department of Computer Science and Engineering Nirma University S G highway, Ahmedabad – 382481, Detection of Face Mask using Convolutional Neural Network. 
 Sammy V. Militante College of Engineering & Architecture University of Antique Sibalom, Antique, Philippines .Real-Time Facemask Recognition with Alarm System using Deep Learning 2020 
   IJRASET International journal for research in applied science and technology face mask detection.
