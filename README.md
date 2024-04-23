@@ -33,14 +33,20 @@ For this reason, Firebase was utilized as the backend administration. Assuming t
 IMPLEMENTATION:
 Step 1 Installing all required Libraries
 Installing the required libraries like OpenCV, Keras, Sklearn and others.
+
 Step 2 Installing Dataset
 This model will differentiate between people wearing and not wearing masks so We    installed our dataset. The next step is labelling the data. The data which has been        collected labelled into two groups; with and without a mask. After the data has been    labelled, it is grouped into those two groups.
+
 Step 3 Data Pre-processing    Data pre-processing is divided in four steps           which are resizing image as we know more the smaller size of image better       will be the model so we will resize images to 224 x 224 pixels, converting               image into
 array, pre-processing input using MobileNetV2 and last is performing hot             encoding on labels.
  The next will be splitting the data.
+ 
 Final Step: Implementing the model:
+
 Step 4: Testing the model
+
 Step 5: Applying camera in the model
+
 Step 6: Running and checking the output
 The model implemented in the video. The video needs to read from frame to frame,
  for the face detection algorithm to work. If a face is been detected, then it proceeds 
